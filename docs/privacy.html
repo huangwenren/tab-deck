@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tab Deck Privacy</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background:#0d1220; color:#e8edf5; }
+    body { max-width:720px; margin:0 auto; padding:48px 24px; line-height:1.65; }
+    h1,h2 { letter-spacing:-.02em; } h1 { font-size:32px; } h2 { margin-top:32px; font-size:18px; }
+    p,li { color:#a8b2c4; } code { color:#91a4ff; } a { color:#91a4ff; }
+    .card { padding:20px; border:1px solid #293244; border-radius:14px; background:#151d2d; }
+  </style>
+</head>
+<body>
+  <h1>Tab Deck Privacy Policy</h1>
+  <div class="card">
+    <strong>Your tabs and Library data stay on your device.</strong>
+    <p>Tab Deck processes the titles and URLs of currently open tabs to organize them. It does not read or store your Chrome browsing history, and it never sells personal data.</p>
+  </div>
+  <h2>Data stored locally</h2>
+  <p>Saved for later items, Archive entries, notes, tags, Workspaces, preferences, recovery points, and an anonymous analytics identifier (only if analytics is enabled) are stored in <code>chrome.storage.local</code>. Tab Deck also processes currently open tab titles and URLs in memory. This data is used only to provide the features you request.</p>
+  <p>Removing the extension can remove its local data. Export a backup from Data &amp; Recovery if you want to keep it.</p>
+  <h2>Optional anonymous analytics</h2>
+  <p>Analytics is off until you explicitly allow it. When enabled, Tab Deck sends allowlisted feature-event names, the extension version, the interface surface, an anonymous identifier, and numeric counts through the Tab Deck Cloudflare Worker to Google Analytics. It never sends tab URLs, page titles, domains, page content, notes, tags, bookmarks, or browsing history.</p>
+  <h2>Permissions</h2>
+  <p>Tab Deck uses required Chrome permissions to manage open tabs, save local data, schedule snoozed items, preserve tab groups, and load favicons locally. Bookmark access is requested only when you choose to import Chrome bookmarks. Notification access is requested only when you create a Snooze reminder.</p>
+  <h2>Your choices</h2>
+  <p>Choosing “Continue without analytics” keeps analytics off and leaves every product feature available. You can change the analytics preference at any time in the popup. Disabling it stops future events and removes the local anonymous identifier.</p>
+  <h2>Chrome Web Store data use</h2>
+  <p>Tab Deck's use of information received from Chrome APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+  <h2>Contact</h2>
+  <p>For privacy questions, open an issue at <a href="https://github.com/huangwenren/tab-deck/issues">github.com/huangwenren/tab-deck/issues</a>.</p>
+  <p>Last updated: August 6, 2026.</p>
+</body>
+</html>
